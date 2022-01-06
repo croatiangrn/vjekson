@@ -458,6 +458,10 @@ th, td {
 	margin-left: 10px;
 }
 
+.mt-30 {
+	margin-top: 30px;
+}
+
 .footer .brand h1 > a {
 	color: #FFFFFF;
 }
