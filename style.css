@@ -569,23 +569,22 @@ th, td {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin: 0;
+		margin-top: 35px;
 	}
 	#Kontakt .Kontakt-item {
 		width: 33.33%;
-		margin: 0;
-		flex-direction: row;
 	}
 	#Kontakt .Kontakt-item .icon {
 		height: 100px;
 		width: 100px;
+		margin: 0 auto;
 	}
 	#Kontakt .Kontakt-item .icon img {
 		object-fit: contain;
 	}
 	#Kontakt .Kontakt-item .Kontakt-info {
 		width: 100%;
-		text-align: left;
+		text-align: center;
 		padding-left: 20px;
 	}
 	#Kontakt p{
