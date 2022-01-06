@@ -221,7 +221,8 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 50px;
-	justify-content: flex-start;
+	justify-content: center;
+	flex-direction: column;
 }
 #Naslovna h1 {
 	display: block;
@@ -262,6 +263,19 @@ p {
 	animation-delay: 2.5s;
 }
 
+.Naslovna .lijevo {
+	width: 100%;
+}
+
+.Naslovna .desno {
+	width: 100%;
+}
+
+.Naslovna .desno .video video {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+}
 
 #Usluge {
 	background-image: url(./img/gym\ 1.jpg);
@@ -440,6 +454,18 @@ th, td {
 	font-size: 1.3rem;
 }
 
+.ml-10 {
+	margin-left: 10px;
+}
+
+.footer .brand h1 > a {
+	color: #FFFFFF;
+}
+
+.footer .brand h1 > a:hover {
+	color: #FF4500FF;
+}
+
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -487,9 +513,20 @@ th, td {
 	#Naslovna h1 {
 		font-size: 7rem;
 	}
-	
 
-	
+	#Naslovna .Naslovna {
+		justify-content: flex-start;
+		flex-direction: row;
+	}
+
+	.Naslovna .lijevo {
+		width: 50%;
+	}
+
+	.Naslovna .desno {
+		width: 50%;
+	}
+
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
